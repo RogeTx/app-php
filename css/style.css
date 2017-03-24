@@ -1,0 +1,81 @@
+/*===============================================================
+------ SECTION RESET
+===============================================================*/
+/* Baseado Meyerweb */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, 
+summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; 
+font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+*, *:before, *:after { margin: 0; padding: 0; outline: 0; font-size: 1em; font-weight: 400;
+line-height: 1.2; letter-spacing: 0em; vertical-align: middle;
+box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Roboto', sans-serif; font-size: 1.5em; font-weight: 400;
+line-height: 1.2; letter-spacing: 0em; vertical-align: middle; }
+p { font-family: 'Open Sans', sans-serif; }
+
+/*===============================================================
+------ SECTION GLOBAL
+===============================================================*/
+body {
+	background-color: #ffffff;
+}
+.navbar-default {
+	background-color:  #349FF4;
+}
+.main-cont {
+	margin-top: 100px;
+}
+.navbar-default .navbar-brand {
+	font-family: 'Roboto', sans-serif;
+	font-size: 21px;
+	font-weight: 400;
+    color: #ffffff;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #332c42;
+}
+.navbar-default .navbar-toggle {
+	margin-right: 10px;
+    background-color:  #349FF4;
+    border: none;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #349FF4;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fafafa;
+}
+footer {
+	background-color:  #349FF4;
+	font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 8px 0;
+}
+.fa-clock-o.footer {
+	margin: 0 4px;
+	font-size: 12px;
+}
