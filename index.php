@@ -10,7 +10,7 @@
 	<span>Add Tarefas</span>
 
 	<p><a href="project.php"><i class="fa fa-folder" aria-hidden="true"></i></a></p>
-	<span>Add Projetos GitHub</span>
+	<span>Add Projetos</span>
 
 	<p><a href="reports.php"><i class="fa fa-file-text" aria-hidden="true"></i></a></p>
 	<span>Ver Relatórios</span>
